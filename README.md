@@ -42,7 +42,7 @@ RingBreaker/
 
 Projeyi yerel ortamınızda çalıştırmak için şu adımları izleyin:
 Depoyu klonlayın:
-Bash git clone https://github.com/fikretkutluay/RingBreaker.git
+git clone https://github.com/fikretkutluay/RingBreaker.git
 Unity Hub'ı açın ve projeyi listeye ekleyin.
 
 Unity sürümünü (2021.x veya üstü önerilir) seçerek projeyi başlatın.
