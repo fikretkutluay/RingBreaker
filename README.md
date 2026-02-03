@@ -1,58 +1,30 @@
-🚀 RingBreaker
+# 🚀 RingBreaker
 
-RingBreaker, Unity motoru kullanılarak geliştirilmiş, yüksek tempolu, arcade tarzı bir mobil oyun projesidir. Oyuncuların dönen halka katmanlarını doğru zamanlama ile parçalayarak merkeze ulaşmasını hedefleyen bu proje, temiz kod mimarisi ve optimize edilmiş oyun mekanikleri üzerine inşa edilmiştir.
+**RingBreaker** is a high-paced, arcade-style mobile game project developed using the Unity engine. The goal is to reach the center by breaking rotating ring layers with perfect timing. This project is built on clean code architecture and optimized game mechanics.
 
-🎮 Oyun Hakkında
+## 🎮 About The Game
+The game is based on the principle of destroying concentric or sequential rotating rings with player inputs at the right moments. Despite its simple control scheme, it offers deep gameplay through increasing speed and evolving ring variations.
 
-Oyun, iç içe geçmiş veya ardışık şekilde dönen halkaların, oyuncunun doğru anlarda yaptığı dokunuşlarla (input) kırılması prensibine dayanır. Basit bir kontrol şemasına sahip olmasına rağmen, artan hız ve değişen halka varyasyonları ile derin bir oynanış sunar.
+### Gameplay Mechanics
+* **Timing-Based Interaction:** A precise hitting system targeting the weak points of the rings.
+* **Progressive Difficulty:** Dynamic changes in ring rotation direction, speed, and complexity as the level progresses.
+* **Visual Feedback:** Satisfying destruction effects and "juice" elements that reinforce the impact feel.
 
-Oynanış Mekanikleri
-Zamanlama Odaklı Etkileşim: Halkaların zayıf noktalarını hedefleyen hassas vuruş sistemi.
+## 🛠 Technical Features
+This project was developed using industry-standard software principles and modern Unity tools:
 
-Progresif Zorluk: Seviye ilerledikçe halkaların dönüş yönü, hızı ve karmaşıklığının dinamik olarak değişmesi.
+* **Engine:** Unity (C#)
+* **Software Architecture:**
+    * **State-Driven Logic:** Centralized control structures managing the game flow (Menu, In-Game, Game Over).
+    * **Object Pooling:** Memory management for frequently instantiated game objects (vFX, ring pieces) to prevent performance drops.
+    * **Input Management:** Low-latency touch control system optimized for mobile devices.
+* **UI/UX:** Responsive interface design ensuring full compatibility with various screen resolutions.
 
-Görsel Geri Bildirim: Halkalar kırıldığında oluşan parçalanma efektleri ve vuruş hissini güçlendiren "juice" elementleri.
-
-🛠 Teknik Özellikler
-
-Bu proje geliştirilirken sektör standartlarında yazılım prensipleri ve Unity'nin modern araçları kullanılmıştır:
-
-Engine: Unity (C#)
-
-Yazılım Mimarisi:
-
-State-Driven Logic: Oyunun akışını (Menü, Oyun İçi, Game Over) yöneten merkezi kontrol yapıları.
-
-Object Pooling: Performans kaybını önlemek için sık oluşturulan oyun nesnelerinin (efektler, halka parçaları) bellek yönetimi.
-
-Input Management: Mobil cihazlar için optimize edilmiş, düşük gecikmeli dokunmatik kontrol sistemi.
-
-UI/UX: Responsive (duyarlı) arayüz tasarımı ile farklı ekran çözünürlüklerine tam uyum.
-
-📁 Proje Yapısı
-
+## 📁 Project Structure
+```text
 RingBreaker/
 ├── Assets/
-│   ├── Scripts/        # Oyun mantığı, kontrolcüler ve yardımcı sınıflar
-│   ├── Prefabs/        # Tekrar kullanılabilir oyun nesneleri (Halkalar, Efektler)
-│   ├── Scenes/         # Ana oyun ve menü sahneleri
-│   └── Materials/      # Görsel stil ve shader yapılandırmaları
-
-📦 Kurulum
-
-Projeyi yerel ortamınızda çalıştırmak için şu adımları izleyin:
-Depoyu klonlayın:
-git clone https://github.com/fikretkutluay/RingBreaker.git
-Unity Hub'ı açın ve projeyi listeye ekleyin.
-
-Unity sürümünü (2021.x veya üstü önerilir) seçerek projeyi başlatın.
-
-Assets/Scenes klasöründeki ana sahneyi açarak Play tuşuna basın.
-
-🚀 Gelecek Geliştirmeler
-
-[ ] Yeni "Combo" sistemi ile ardışık vuruşlara ödül mekanizması.
-
-[ ] Farklı halka tipleri (hareketli engeller, korumalı bölgeler).
-
-[ ] Local Storage kullanılarak yüksek skor (High Score) kaydı.
+│   ├── Scripts/        # Game logic, controllers, and helper classes
+│   ├── Prefabs/        # Reusable game objects (Rings, Effects)
+│   ├── Scenes/         # Main game and menu scenes
+│   └── Materials/      # Visual styles and shader configurations
