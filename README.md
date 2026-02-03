@@ -8,9 +8,12 @@ You can watch the high-quality gameplay video on Google Drive:
 The game is based on the principle of destroying concentric or sequential rotating rings with player inputs at the right moments. Despite its simple control scheme, it offers deep gameplay through increasing speed and evolving ring variations.
 
 ### Gameplay Mechanics
-* **Timing-Based Interaction:** A precise hitting system targeting the weak points of the rings.
-* **Progressive Difficulty:** Dynamic changes in ring rotation direction, speed, and complexity as the level progresses.
-* **Visual Feedback:** Satisfying destruction effects and "juice" elements that reinforce the impact feel.
+* **One-Tap Precision:** Simple yet challenging one-tap mechanics that require perfect timing to break rings.
+* **Dynamic Obstacles:** Red-colored barrier layers that must be avoided, adding a strategic layer to the fast-paced gameplay.
+
+* **Combo & Score System:** A scoring system that rewards consecutive ring breaks, pushing players to beat their "Best Score."
+
+* **Level Completion Flow:** Smooth transitions between levels with rewarding visual feedback upon completion.
 
 ## 🛠 Technical Features
 This project was developed using industry-standard software principles and modern Unity tools:
