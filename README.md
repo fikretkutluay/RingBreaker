@@ -1,5 +1,7 @@
 # 🚀 RingBreaker
-
+## 🎮 Full Gameplay Video
+You can watch the high-quality gameplay video on Google Drive:
+[👉 Click Here to Watch on Google Drive](https://drive.google.com/drive/folders/1_bzt8MqnKVHso8NUQ0sE9mpfbSYjlYqK?usp=drive_link)
 **RingBreaker** is a high-paced, arcade-style mobile game project developed using the Unity engine. The goal is to reach the center by breaking rotating ring layers with perfect timing. This project is built on clean code architecture and optimized game mechanics.
 
 ## 🎮 About The Game
