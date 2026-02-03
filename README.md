@@ -1,7 +1,9 @@
 🚀 RingBreaker
+
 RingBreaker, Unity motoru kullanılarak geliştirilmiş, yüksek tempolu, arcade tarzı bir mobil oyun projesidir. Oyuncuların dönen halka katmanlarını doğru zamanlama ile parçalayarak merkeze ulaşmasını hedefleyen bu proje, temiz kod mimarisi ve optimize edilmiş oyun mekanikleri üzerine inşa edilmiştir.
 
 🎮 Oyun Hakkında
+
 Oyun, iç içe geçmiş veya ardışık şekilde dönen halkaların, oyuncunun doğru anlarda yaptığı dokunuşlarla (input) kırılması prensibine dayanır. Basit bir kontrol şemasına sahip olmasına rağmen, artan hız ve değişen halka varyasyonları ile derin bir oynanış sunar.
 
 Oynanış Mekanikleri
@@ -12,6 +14,7 @@ Progresif Zorluk: Seviye ilerledikçe halkaların dönüş yönü, hızı ve kar
 Görsel Geri Bildirim: Halkalar kırıldığında oluşan parçalanma efektleri ve vuruş hissini güçlendiren "juice" elementleri.
 
 🛠 Teknik Özellikler
+
 Bu proje geliştirilirken sektör standartlarında yazılım prensipleri ve Unity'nin modern araçları kullanılmıştır:
 
 Engine: Unity (C#)
@@ -36,6 +39,7 @@ RingBreaker/
 │   └── Materials/      # Görsel stil ve shader yapılandırmaları
 
 📦 Kurulum
+
 Projeyi yerel ortamınızda çalıştırmak için şu adımları izleyin:
 Depoyu klonlayın:
 Bash git clone https://github.com/fikretkutluay/RingBreaker.git
